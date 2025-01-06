@@ -6,7 +6,7 @@
 }
 
 .main_list {
-  padding: 8px;  
+  padding: 8px;
   border: 2px solid rgb(228, 227, 227);
   border-radius: 18px;
   position: relative;
@@ -14,20 +14,48 @@
 }
 
 .main_list::before {
-    content: "Типы переменных"; 
-    position: absolute;
-    top: -20px; 
-    left: 10px; 
-    background-color: #f0f0f0; 
-    padding: 2px 8px; 
-    font-size: 14px; 
-    color: #333; 
-  }
+  content: 'Типы переменных';
+  position: absolute;
+  top: -20px;
+  left: 10px;
+  background-color: #f0f0f0;
+  padding: 2px 8px;
+  font-size: 14px;
+  color: #333;
+}
 
 .main_paragraph {
   width: 800px;
-  height: 500px;
+  height: 200px;
   border: 6px solid rgb(228, 227, 227);
   border-radius: 18px;
   margin-left: 60px;
+  padding: 10px;
+  font-style: italic;
+}
+
+.main_paragraph normal {
+  font-style: normal;
+}
+
+.main_paragraph strong {
+  font-weight: bold;
+}
+
+.string_input {
+  display: flex; 
+  align-items: center; 
+  gap: 8px; 
+}
+
+.string_input input {
+  width: 270px; 
+  padding: 5px; 
+  font-size: 14px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+}
+
+.string_button {
+  cursor: pointer;
 }
