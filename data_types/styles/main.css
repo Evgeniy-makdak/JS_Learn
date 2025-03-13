@@ -5,6 +5,12 @@
   display: flex;
 }
 
+.sector {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
 .main_list {
   padding: 8px;
   border: 2px solid rgb(228, 227, 227);
